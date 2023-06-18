@@ -81,7 +81,19 @@
 // показати через alert: "Вірно!"
 //інакше відобразити: "Не знаєте? ECMAScript!"
 
-// const question = prompt('Яка «офіційна» назва JavaScript?').toLowerCase();
+// const message = 'Яка «офіційна» назва JavaScript?';
+// const question = prompt(message).toLowerCase();
+// // if (question === "ecmascript") {
+// //     alert("Вірно!")
+// // } else {
+// //     alert("Не знаєте? ECMAScript!")
+// // }
+// alert(question === "ecmascript" ? "Вірно!" : "Не знаєте? ECMAScript!") 
+
+
+
+
+
 
 //TODO: 6 ===================================
 // Напишіть програму, яка отримає від користувача
@@ -89,6 +101,17 @@
 //рядок у форматі годин і хвилин
 //70 === 01:10
 // https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
+
+// const globalMinutes = 69;
+// const hours = String(parseInt(globalMinutes / 60)).padStart(2, 0);
+
+// const minuts = String(globalMinutes % 60).padStart(2, 0);
+// console.log(`${hours } : ${minuts}`);
+//  
+
+
+
+
 
 //TODO: 7 ===================================
 //Напишіть цикл, який виводить у консоль
