@@ -35,8 +35,43 @@
 // значення '1', то у змінну result запишемо 'зима', якщо має значення
 // '2' - 'весна' і так далі. Розв'яжіть завдання через switch-case.
 
+// const num = 5;
+// let message;
+
+// switch (num) {
+//   case 1:
+//     message = "зима";
+//     break;
+  
+//   case 2:
+//     message = "весна";
+//     break;
+  
+//   case 3:
+//     message = "літо";
+//     break;
+  
+//   case 4:
+//     message = "осінь";
+//     break;
+
+//   default:
+//     message = "такої пори року не існує";
+// }
+
+// console.log(message);
+
+
 //TODO: 4 ===================================
 // скористаємося циклом while та виведіть у консоль числа від 0 до 50
+
+// let counter = 0;
+
+// while (counter <= 50) {
+//   console.log(counter);
+//   counter += 1;
+// } 
+
 
 //TODO: 5 ===================================
 //Використовуючи конструкцію if...else,
