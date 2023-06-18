@@ -70,7 +70,7 @@
 // while (counter <= 50) {
 //   console.log(counter);
 //   counter += 1;
-// } 
+// }
 
 
 //TODO: 5 ===================================
@@ -88,7 +88,7 @@
 // // } else {
 // //     alert("Не знаєте? ECMAScript!")
 // // }
-// alert(question === "ecmascript" ? "Вірно!" : "Не знаєте? ECMAScript!") 
+// alert(question === "ecmascript" ? "Вірно!" : "Не знаєте? ECMAScript!")
 
 
 
@@ -102,12 +102,13 @@
 //70 === 01:10
 // https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
 
+
 // const globalMinutes = 69;
 // const hours = String(parseInt(globalMinutes / 60)).padStart(2, 0);
 
 // const minuts = String(globalMinutes % 60).padStart(2, 0);
 // console.log(`${hours } : ${minuts}`);
-//  
+//
 
 
 
@@ -117,6 +118,26 @@
 //Напишіть цикл, який виводить у консоль
 // числа від max до min за спаданням
 // Додайте усі парні числа від min до max
+
+// const min = 1;
+// const max = 20;
+// let total = 0;
+
+// for (let index = max; index >= min; index-=1) {
+//     if (index % 2 !== 0) {
+//         continue;
+//     }
+//     total += index;
+//     // total = total + index;
+//     console.log("Парні: ", index);
+// }
+// console.log(`Сума усіх парних чисел ${total}`);
+
+
+
+
+
+
 
 //TODO: 8 ===================================
 //Напишіть код, який запитуватиме
@@ -144,6 +165,47 @@
 // кнопку Cancel, показати alert з рядком "Загальна сума введених чисел дорівнює [число]."
 // Робити перевірку,що користувач ввів саме число,
 // а не довільний набір символів, не потрібно.
+
+// let total = 0;
+// let input;
+
+// do {
+//     input = prompt("Введіть число");
+
+//     if (input === null) {
+//         break;
+//     }
+
+//     input = parseFloat(input);
+    
+//     if (!isNaN(input)) {
+//         total += input;
+// }
+// console.log(!isNaN(input))
+    
+// } while (true);
+
+// console.log(`Загальна сума введених чисел ${total}`);
+
+
+
+// Область видимості ============================
+
+// let total = 0;
+
+// if (total === 0) {
+//     console.log(total)
+
+//     const result = 1;
+// }
+
+// console.log(result);
+
+
+
+
+
+
 
 //TODO: 10 ===================================
 // Напишіть цикл, який пропонує ввести
