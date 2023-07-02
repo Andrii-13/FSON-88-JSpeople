@@ -95,3 +95,19 @@
 // console.log(formatMessage('Curabitur ligula sapien', 23)); //Повертає 'Curabitur ligula sapien'.
 // console.log(formatMessage('Nunc sed turpis a felis in nunc fringilla', 15)); //Повертає 'Nunc sed turpis...'.
 // console.log(formatMessage('Nunc sed turpis a felis in nunc fringilla', 41)); //Повертає 'Nunc sed turpis a felis in nunc fringilla
+
+
+// const sumArr = [22, 11, 34, 5, 12, 13, 14, 15];
+  
+// function sum(arr) {
+//   let sum = 0;
+//   let total = [];
+//   for (const args of arr) {
+//     sum += args;
+//     total.push(sum);
+//   }
+//   console.log(total);
+//   console.log(sum);
+// }
+
+// sum(sumArr);
