@@ -100,52 +100,52 @@
 
 //         obj[key] *= 2;
 //       }
+// //     }
+// //   }
+// //   return obj
+// // }
+
+// // console.log(multiplyNumeric(menu));
+
+// // Потрібно перебрати об'єкти та вивести ім'я кращого співробітника
+
+// function findBestEmployee(obj) {
+//     let bestEmployee = "";
+//     let bestEmployeeTasks = 0;
+
+//     for (const [employee, tasks] of Object.entries(obj)) {
+//         // console.log(employee);
+//         // console.log(tasks);
+//         if (tasks > bestEmployeeTasks) {
+//             bestEmployeeTasks = tasks;
+//             bestEmployee = employee;
+//         }
 //     }
-//   }
-//   return obj
-// }
+//     return bestEmployee;
+// } 
 
-// console.log(multiplyNumeric(menu));
+// console.log(
+//   findBestEmployee({
+//     ann: 29,
+//     david: 35,
+//     helen: 1,
+//     lorence: 99,
+//   })
+// );// lorence
 
-// Потрібно перебрати об'єкти та вивести ім'я кращого співробітника
+// console.log(
+//   findBestEmployee({
+//     poly: 12,
+//     mango: 17,
+//     ajax: 4,
+//   })
+// ); // mango
 
-function findBestEmployee(obj) {
-    let bestEmployee = "";
-    let bestEmployeeTasks = 0;
-
-    for (const [employee, tasks] of Object.entries(obj)) {
-        // console.log(employee);
-        // console.log(tasks);
-        if (tasks > bestEmployeeTasks) {
-            bestEmployeeTasks = tasks;
-            bestEmployee = employee;
-        }
-    }
-    return bestEmployee;
-} 
-
-console.log(
-  findBestEmployee({
-    ann: 29,
-    david: 35,
-    helen: 1,
-    lorence: 99,
-  })
-);// lorence
-
-console.log(
-  findBestEmployee({
-    poly: 12,
-    mango: 17,
-    ajax: 4,
-  })
-); // mango
-
-console.log(
-  findBestEmployee({
-    lux: 147,
-    david: 21,
-    kiwi: 19,
-    chelsy: 38,
-  })
-); // lux
+// console.log(
+//   findBestEmployee({
+//     lux: 147,
+//     david: 21,
+//     kiwi: 19,
+//     chelsy: 38,
+//   })
+// ); // lux
