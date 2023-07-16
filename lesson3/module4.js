@@ -126,3 +126,86 @@
 // .filter (city => obj[city] > new Date ())
 // .sort ((a,b) => obj[a] - obj[b])
 // console.log(conertToArray(concerts));
+
+//! class
+//TODO:=================task-09=============================
+// Завдання полягає у створенні програми, що дозволяє керувати замовленнями в ресторані.
+
+// #### Для цього потрібно реалізувати клас `Order`, який містить такі приватні властивості:
+// - `tableNumber` - номер столика, де зроблено замовлення
+// - `items` - масив предметів замовлення, де кожен предмет містить ім'я (name) та ціну (price)
+// - `isPaid` - позначає, чи оплачене замовлення (default = false)
+// ##### Для класу Order потрібно реалізувати такі методи:
+// - `calculateTotal`() - повертає загальну суму замовлення.
+// - `markAsPaid`() - позначає замовлення як оплачене
+// - `addItem`() - який додає предмет замовлення до масиву "items"
+// - `removeItem`() - який видаляє предмет замовленя з масиву "items"
+// ##### Додатково можна створити гетери та сетери для отримання номера столика, статусу замовлення та самого замовлення
+
+// #### Також потрібно створити клас `MenuItem`, який містить властивості `name` та `price` для предметів замовлення.
+
+
+// class Order {
+//     #tableNumber;
+//     #items = [];
+//     #isPaid = false;
+
+//     constructor(tableNumber){
+//         this.#tableNumber = tableNumber;
+//     }
+//     calculateTotal() {
+//       return this.#items.reduce((acc, { price }) => (acc += price), 0);
+//     }
+//     markAsPaid() {
+//         this.#isPaid = true;
+//     }
+//     addItem(newItem) {
+//         this.#items.push(newItem);
+//     }
+//     removeItem(itemDel) {
+//         this.#items = this.#items.filter(item => item !== itemDel)
+//     }
+//     get tableNumber(){
+//         return this.#tableNumber;
+//     }
+//     set tableNumber(newTableNumber) {
+//         this.#tableNumber = newTableNumber;
+//     }
+//     get isPaid() {
+//         return this.#isPaid;
+//     }
+//     set isPaid(newValue){
+//         this.#isPaid = newValue;
+//     }
+
+// }
+
+// class MenuItem {
+//     constructor(name,price){
+//     this.name = name;
+//     this.price = price;
+// }
+// }
+
+// // Create menu items
+// const pepci = new MenuItem("pepci", 5)
+// const burger = new MenuItem("burger", 10)
+// const coffee = new MenuItem("coffee", 7)
+
+
+// // Create an order
+// const order = new Order(1)
+
+// order.addItem(burger)
+// order.addItem(pepci)
+// order.addItem(coffee)
+// order.removeItem(pepci)
+// order.tableNumber = 10
+
+// // Calculate the total and mark the order as paid
+// const total = order.calculateTotal()
+// order.markAsPaid()
+
+// console.log(`Order for table ${order.tableNumber} - Total: $${total}`);
+// console.log(`Is paid: ${order.isPaid}`);
+
