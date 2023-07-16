@@ -102,3 +102,27 @@
 
 // const totalNum = numbers.reduce((acc, el) => (acc += el), 0);
 // console.log(totalNum);
+
+
+
+
+/// Даний словник із міст та дат виступів рок-групи
+
+/// Необхідно перетворити словник (key-value) на масив із назв міст
+/// Виведення міст має бути у хронологічному порядку
+/// Міста у яких концерт вже пройшов потрібно виключити
+/// Результат ["Умань", "Харків", "Одеса"]
+
+// const concerts = {
+//     Київ: new Date('2020-04-01'),
+//     Умань: new Date('2023-08-02'),
+//     Вінниця: new Date('2020-04-21'),
+//     Одеса: new Date('2023-08-15'),
+//     Хмельницький: new Date('2020-04-18'),
+//     Харків: new Date('2023-08-10'),
+// }
+
+// const conertToArray = (obj) => Object.keys(obj)
+// .filter (city => obj[city] > new Date ())
+// .sort ((a,b) => obj[a] - obj[b])
+// console.log(conertToArray(concerts));
