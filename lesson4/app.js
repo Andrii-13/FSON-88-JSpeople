@@ -90,28 +90,3 @@ const films = [
 
 //TODO:=========task-05=================
 // При кліку на коло воно має слідувати за курсором. При повторному кліку воно стає в початкове положення.
-
-const circle = document.querySelector('.outer-circle');
-
-const onMouseMove = (e) => {
-  console.log('move');
-
-  let left = e.pageX;
-  let top = e.pageY;
-
-  circle.style.top = `${top - 15}px`;
-  circle.style.left = `${left - 15}px`;
-};
-
-circle.addEventListener('click', (e) => {
-  const item = e.currentTarget;
-
-  if (item.style.position === 'absolute') {
-    window.removeEventListener('mousemove', onMouseMove);
-    item.style.position = 'static';
-    return;
-  }
-
-  item.style.position = 'absolute';
-  window.addEventListener('mousemove', onMouseMove);
-});
