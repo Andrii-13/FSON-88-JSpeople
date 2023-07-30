@@ -6,10 +6,25 @@
  * яка повертатиме масив елементів(масив з лішками).
  */
 
-const appendFruitList = ['apple🍎', 'banana🍌'];
-const prependFruitList = ['grapes🍇', 'orange🍊'];
-const beforeFruitList = ['strawberry🍓', 'cherry🍒'];
-const afterFruitList = ['peach🍑', 'kiwi🥝'];
+// const appendFruitList = ['apple🍎', 'banana🍌'];
+// const prependFruitList = ['grapes🍇', 'orange🍊'];
+// const beforeFruitList = ['strawberry🍓', 'cherry🍒'];
+// const afterFruitList = ['peach🍑', 'kiwi🥝'];
+
+// const ulEl = document.querySelector(".list");
+// function elementsOfIngridients(arr){
+// return  arr.map(elem => {
+//     const liEl  = document.createElement("li");
+//     liEl.textContent = elem;
+//     return liEl;
+//   })
+// }
+// ulEl.append(...elementsOfIngridients(appendFruitList));
+// // console.log(...elementsOfIngridients(appendFruitList));
+// ulEl.prepend(...elementsOfIngridients(prependFruitList));
+// ulEl.before(...elementsOfIngridients(beforeFruitList));
+// ulEl.after(...elementsOfIngridients(afterFruitList));
+// console.log(elementsOfIngridients(appendFruitList));
 
 //TODO:=========task-02=================
 // Створіть контейнер div (з класом numberContainer )в HTML-документі та динамічно створіть 100 блоків (з класом number) наповнивши їх рандомними числами від 1 до 100 і додайте їх до контейнера div(numberContainer). Парні числа повинні мати зелений фон (додати клас even), Непарні числа - жовтий фон (додати клас odd).
