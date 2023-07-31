@@ -9,7 +9,7 @@
 // const appendFruitList = ['apple🍎', 'banana🍌'];
 // const prependFruitList = ['grapes🍇', 'orange🍊'];
 // const beforeFruitList = ['strawberry🍓', 'cherry🍒'];
-// const afterFruitList = ['peach🍑', 'kiwi🥝'];
+// co.anst afterFruitList = ['peach🍑', 'kiwi🥝'];
 
 // const ulEl = document.querySelector(".list");
 // function elementsOfIngridients(arr){
