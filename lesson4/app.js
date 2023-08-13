@@ -158,5 +158,28 @@ renderFilms(films);
 //TODO:=========task-05=================
 // Кнопка "Зменшити" робить квадрат меншим на 20 пікселів, кнопка "Збільшити" - робить більшим на 10 пікселів.
 
-//TODO:=========task-05=================
+//TODO:=========task-06=================
 // При кліку на коло воно має слідувати за курсором. При повторному кліку воно стає в початкове положення.
+// const circle = document.querySelector('.outer-circle');
+
+// circle.addEventListener('click', onCircleClick);
+
+// function onCircleClick(event){
+//   const target = event.currentTarget;
+
+//   if(target.style.position === 'absolute'){
+//     target.style.position = 'static'; 
+// window.removeEventListener('mousemove', onMouseMove)
+// return
+// }
+//  target.style.position = 'absolute';
+// window.addEventListener('mousemove', onMouseMove)
+// }
+
+// function onMouseMove(evt){
+//   let left = evt.pageX;
+//   let top = evt.pageY;
+
+//   circle.style.top = `${top - 15}px`;
+//   circle.style.left = `${left - 15}px`
+// }
