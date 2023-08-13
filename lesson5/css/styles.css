@@ -52,10 +52,12 @@ ul {
   gap: 15px;
   list-style: none;
 }
+
 .accordion-list-item {
   position: relative;
   transition: all 500ms linear;
 }
+
 .accordion {
   background-color: #eee;
   color: #444;
@@ -67,16 +69,19 @@ ul {
   outline: none;
   transition: 0.4s;
 }
+
 .active,
 .accordion:hover {
   background-color: #ccc;
 }
+
 .panel {
   background-color: white;
   display: none;
   padding: 20px;
   overflow: hidden;
 }
+
 .panel.active {
   display: block;
 }
@@ -240,9 +245,11 @@ button:active {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.1);
   }
+
   100% {
     transform: scale(1);
   }
@@ -286,13 +293,14 @@ button:active {
   transition: 0.4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background: linear-gradient(90grad, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   transform: translateX(-24px);
 }
+
 .slider,
 .round {
   border-radius: 34px;
@@ -302,9 +310,10 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-input:checked + .round::before {
+input:checked+.round::before {
   background-color: hsl(230, 17%, 14%);
 }
+
 /* /THEME/ */
 .dark {
   --main-background: hsl(230, 17%, 14%);
@@ -316,12 +325,23 @@ input:checked + .round::before {
   --main-font: hsl(230, 17%, 14%);
 }
 
+body.dark .switcher-title,
+body.dark button,
+body.dark .counter-title {
+  color: #fff;
+}
+
+body.dark .accordion {
+  color: #000;
+}
+
 .toggle-switch {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 .toggle-switch p {
   padding: 1em;
 }
@@ -352,7 +372,8 @@ input:checked + .round::before {
 }
 
 .checked {
-  color: red; /* або будь-який інший стиль, який ви хочете застосувати до сердечка улюбленої страви */
+  color: red;
+  /* або будь-який інший стиль, який ви хочете застосувати до сердечка улюбленої страви */
 }
 
 img {
